@@ -8,6 +8,7 @@
   <meta name="description" content="Bla bla bla">
   <meta name="keywords" content="html css robotics club javascript">
   <link rel="stylesheet" href="./index_style.css">
+  <link rel="stylesheet" href="./resposiveness/responsive_mobile.css">
   <title>Mavericks Club SLIET</title>
   <link rel="icon" type="image/x-icon" href="./images/mavericks-removebg-preview.png">
 </head>
@@ -17,11 +18,11 @@
       <img src="./images/mavericks-removebg-preview.png" class="mavericks" alt="">
       <div class="menu">
         <a href="#">Home</a>
-      <a href="#">Gallery</a>
-      <a href="#">Projects</a>
-      <a href="#">Team</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#projects">Projects</a>
+      <a href="./team/team.html">Team</a>
+      <a href="./about/about.html">About</a>
+      <a href="./contact/contact.html">Contact</a>
       </div>
       <img src="./images/mavericks-removebg-preview.png" class="mavericks" alt="">
     </nav>
@@ -35,7 +36,7 @@
   <!-- ########### Gallery ############### -->
 
 
-  <section class="gallery">
+  <section class="gallery" id="gallery">
     <h1>OUR <span class="us">Gallery</span></h1>
     <hr>
     <div class="projects_define">
@@ -47,11 +48,25 @@
   </section>
 
 
+  <!-- ########### Video Section ###########  -->
+
+
+  <section class="video">
+    <h1>Video<span class="us">s</span></h1>
+    <hr>
+    <div class="videos">
+      <video width="320" height="240" controls>
+        <source src="./videos/Robotic arm controlled with three axis joystick.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+
 
   <!-- ############ Our Projects ############  -->
 
 
-  <section class="projects">
+  <section class="projects" id="projects">
     <h1>OUR <span class="us">Projects</span></h1>
     <hr>
     <div class="projects_define">

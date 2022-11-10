@@ -89,9 +89,9 @@ body{
 /* ########## Gallery ############ */
 
 .gallery{
-  background-color: azure;
+  background-color: aliceblue;
   align-items: center;
-  border: 2px solid azure;
+  border: 2px solid aliceblue;
   padding-bottom: 1rem;
 }
 
@@ -113,14 +113,52 @@ body{
 }
 
 
+/* ############ Video Section ###############  */
+
+
+.video{
+  background-color: #e6e6e688;
+  align-items: center;
+  border: 2px solid #e6e6e688;
+  padding-bottom: 1rem;
+}
+
+.video h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 0;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.video hr{
+  width: 5vw;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+
+.videos{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.videos video{
+  padding-bottom: 1.5rem;
+}
+
 
 /* ########### Our Project ##########  */
 
 
 .projects{
-  background-color: #e6e6e6;
+  background-color: aliceblue;
   align-items: center;
-  border: 2px solid #e6e6e6;
+  border: 2px solid aliceblue;
   padding-bottom: 1rem;
 }
 
@@ -171,9 +209,9 @@ body{
 
 
 .team{
-  background-color: aliceblue;
+  background-color: #e6e6e688;
   align-items: center;
-  border: 2px solid aliceblue;
+  border: 2px solid #e6e6e688;
   padding-bottom: 1rem;
 }
 
