@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 
 body{
   padding: 0;
@@ -70,15 +71,14 @@ body{
   padding: 0;
 }
 
-.mavericks{
 
-}
 .sliet{
   filter: invert(100%);
 }
 
 .heading{
   align-items: center;
+  font-family: 'Merienda One', cursive;
   justify-content: center;
   padding-top: 50vh;
   padding-left: 20vh;
@@ -345,10 +345,13 @@ body{
   padding-right: 1rem;
 }
 .socialmedia a{
-  filter: grayscale(100%);
+  filter: grayscale(50%);
+
+
 }
 .socialmedia a:hover{
   filter: grayscale(0%);
+  cursor: pointer;
 }
 
 /* Contact Us Container  */

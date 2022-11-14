@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 
 body{
   padding: 0;
@@ -10,7 +11,7 @@ body{
 .header{
   width: auto;
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/pexels-pavel-danilyuk-8294594.jpg");
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/235.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -67,19 +68,13 @@ body{
   padding: 0;
 }
 
-.mavericks{
-
-}
-.sliet{
-  filter: invert(100%);
-}
-
 .heading{
   align-items: center;
   justify-content: center;
   padding-top: 50vh;
   padding-left: 20vh;
   font-size: 3rem;
+  font-family: 'Merienda One', cursive;
 }
 .heading h1{
   color: #f45825;

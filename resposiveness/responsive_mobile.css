@@ -1,3 +1,4 @@
+/* ########### For Full screen ########### */
 @media (min-width:700px) and (max-width: 990px) {
   .cont{
   }
@@ -9,6 +10,7 @@
   }
 }
 
+/* ############ For tablets ############## */
 @media (min-width:500px) and (max-width: 700px) {
   .contactus_container{
     flex-direction: column;
@@ -27,6 +29,7 @@
   }
 }
 
+/* ############### For mobile ################# */
 @media (max-width:500px){
   .contactus_container{
     flex-direction: column;
