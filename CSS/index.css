@@ -111,13 +111,19 @@ body{
   font-family: 'Courier New', Courier, monospace;
 }
 
+.gallery h1 a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 0%;
+  padding: 0%;
+}
+
 .gallery hr{
   width: 5vw;
   background-color: black;
   border: 3px solid black;
   border-radius: 1rem;
 }
-
 
 /* ########### Our Project ##########  */
 
@@ -581,12 +587,28 @@ body{
   padding-right: 2rem;
 }
 
-.gallery img{
+.main_image{
   height: 80vh;
   border: 2px solid #f45825;
   border-radius: 1rem;
-  width: 80vw;
+  width: 70vw;
   margin-bottom: 2rem;
+}
+
+.gallery_images img{
+  height: 40vh;
+  border: 2px solid #f45825;
+  border-radius: 1rem;
+  width: 35vw;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.gallery_images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 
