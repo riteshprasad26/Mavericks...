@@ -15,18 +15,17 @@
 </head>
 <body>
   <header class="header">
-    <nav class="navbar">
-      <img src="./images/mavericks-removebg-preview.png" class="mavericks" alt="">
-      <div class="menu">
-        <a href="#">Home</a>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
       <a href="./templates/gallery.html">Gallery</a>
-      <a href="./templates/project.html">Projects</a>
+      <a href="./templates/project.html">Project</a>
       <a href="./templates/team.html">Team</a>
       <a href="./templates/about.html">About</a>
       <a href="./templates/contact.html">Contact</a>
-      </div>
-      <img src="./images/mavericks-removebg-preview.png" class="mavericks" alt="">
-    </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div class="heading">
       <h1>Mavericks</h1>
     </div>
@@ -249,5 +248,19 @@
     </div>
 
   </footer>
+
+
+  <!-- ############# SOme JS ############  -->
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 </html>
