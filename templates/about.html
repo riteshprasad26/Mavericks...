@@ -8,6 +8,7 @@
   <title>About | Mavericks</title>
   <link rel="icon" type="image/x-icon" href="../images/mavericks-removebg-preview.png">
   <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="./CSS/responsiveness.css">
 </head>
 <body>
   <header class="header">
@@ -149,5 +150,19 @@
     </div>
 
   </footer>
+
+
+  <!-- ############# SOme JS ############  -->
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 </html>
